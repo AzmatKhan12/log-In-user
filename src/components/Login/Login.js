@@ -40,7 +40,7 @@ const Login = (props) => {
  });
 
  const [passwordState,dispatchPassword]=useReducer(passwordReducer,{
-     value: "",
+   value: "",
    isvalid: null,
  });
 
